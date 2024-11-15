@@ -98,7 +98,7 @@ let handler = async (m, { conn, text }) => {
 
   // Convert canvas to image and send it
   const buffer = canvas.toBuffer('image/png');
-  conn.sendFile(m.chat, buffer, 'styled-text.png', `*𝘗𝘖𝘞𝘌𝘙𝘌𝘋 𝘉𝘠 © 𝘜𝘓𝘛𝘙𝘈-𝘔𝘋*`, m);
+  conn.sendFile(m.chat, buffer, 'styled-text.png', `*𝘗𝘖𝘞𝘌𝘙𝘌𝘋 𝘉𝘠 © TOHID-KHAN*`, m);
 };
 
 handler.help = ['fancy2 <font_number> <text>'];

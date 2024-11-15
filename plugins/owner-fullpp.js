@@ -165,7 +165,7 @@ function _0x5453() {
     'AxlGn',
     'string',
     'quoted',
-    'Guru\x20Bot\x20Did\x20some\x20magic\x20to\x20your\x20profile\x20picture',
+    'TOHID\x20Bot\x20Did\x20some\x20magic\x20to\x20your\x20profile\x20picture',
     'MIME_JPEG',
     '26870JfXPBh',
     'while\x20(true)\x20{}',

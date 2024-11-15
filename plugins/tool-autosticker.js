@@ -11,7 +11,7 @@ handler.all = async function (m) {
   if (chat.autosticker && m.isGroup) {
     let q = m
     let stiker = false
-    let wm = 'GlobalTech'
+    let wm = 'TohidKhan'
     let mime = (q.msg || q).mimetype || q.mediaType || ''
     if (/webp/g.test(mime)) return
     if (/image/g.test(mime)) {
@@ -37,7 +37,7 @@ handler.all = async function (m) {
     }
     if (stiker) {
       let img = await (
-        await fetch('https://i.ibb.co/G2dh9cB/qasim.jpg')
+        await fetch('https://i.imgur.com/M1BzE37.jpeg')
       ).buffer()
       await this.sendFile(m.chat, stiker, 'error.jpg', null, m, false, {
         contextInfo: { showAdAttribution: true },
