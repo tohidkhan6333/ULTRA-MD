@@ -6,11 +6,11 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const defaultOwner = '923444844060';
+const defaultOwner = '917849917350';
 
 
 // Check for the OWNERS environment variable; if not found, use the default
-const ownervb = process.env.OWNERS = 'your number';  // put your number here
+const ownervb = process.env.OWNERS = '917849917350';  // put your number here
 
 const ownerlist = ownervb.split(';');
 
@@ -19,13 +19,13 @@ for (let i = 0; i < ownerlist.length; i++) {
     global.owner.push([ownerlist[i], true]);
 }
 //
-global.botname = process.env.BOTNAME || 'ULTRA-MD';
-global.pairingNumber = process.env.BOT_NUMBER = 'your number';  // put your number here
+global.botname = process.env.BOTNAME || 'TOHID-KHAN';
+global.pairingNumber = process.env.BOT_NUMBER = '917849917350';  // put your number here
 global.SESSION_ID = process.env.SESSION_ID = 'session id';  // put your session id here
 
 global.mods = []
 global.prems = []
-global.allowed = ['923444844060', '923051391007']
+global.allowed = ['917849917350', '918930358452']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = [
@@ -42,7 +42,7 @@ global.keysneoxrrr = ['5VC9rvNx', 'cfALv5']
 global.keysneoxr = keysneoxrrr[Math.floor(keysneoxrrr.length * Math.random())]
 global.lolkeysapi = ['GataDios']
 
-global.canal = 'https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07'
+global.canal = 'https://whatsapp.com/channel/0029VaGyP933bbVC7G0x0i2T'
 
 
 global.APIs = {
@@ -73,15 +73,15 @@ global.APIKeys = {
 
 // Sticker WM
 global.premium = 'true'
-global.packname = 'GLOBAL-MD'
-global.author = 'GlobalTechInfo'
-global.menuvid = 'https://i.imgur.com/2U2K9YA.mp4'
-global.igfg = ' Follow on Instagram\nhttps://www.instagram.com/global.techinfo'
-global.dygp = 'https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07'
-global.fgsc = 'https://github.com/GlobalTechInfo/ULTRA-MD'
-global.fgyt = 'https://youtube.com/@GlobalTechInfo'
-global.fgpyp = 'https://youtube.com/@GlobalTechInfo'
-global.fglog = 'https://i.ibb.co/G2dh9cB/qasim.jpg'
+global.packname = 'TOHID-KHAN'
+global.author = 'TOHID-KHAN'
+global.menuvid = 'https://i.imgur.com/2Sp3cqD.mp4'
+global.igfg = ' Follow on Instagram\nhttps://www.instagram.com/Tohidkhan6332'
+global.dygp = 'https://whatsapp.com/channel/0029VaGyP933bbVC7G0x0i2T'
+global.fgsc = 'https://github.com/Tohidkhan6332/TOHID-MD'
+global.fgyt = 'https://github.com/Tohidkhan6332'
+global.fgpyp = 'https://youtube.com/@Tohidkhan_6332'
+global.fglog = 'https://i.imgur.com/M1BzE37.jpeg'
 global.thumb = fs.readFileSync('./assets/qasim.jpg')
 
 global.wait = '⏳'

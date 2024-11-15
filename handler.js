@@ -571,10 +571,10 @@ export async function participantsUpdate({ id, participants, action }) {
                 contextInfo: {
                   mentionedJid: [user],
                   externalAdReply: {
-                    title: 'Global Bot',
+                    title: 'Tohid Bot',
                     body: 'Welcome to Group',
                     thumbnailUrl: welcomeApiUrl,
-                    sourceUrl: 'https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07',
+                    sourceUrl: 'https://whatsapp.com/channel/0029VaGyP933bbVC7G0x0i2T',
                     mediaType: 1,
                     renderLargerThumbnail: true,
                   },
@@ -628,10 +628,10 @@ export async function participantsUpdate({ id, participants, action }) {
                 contextInfo: {
                   mentionedJid: [user],
                   externalAdReply: {
-                    title: 'Global Bot',
+                    title: 'Tohid Bot',
                     body: 'Goodbye from  Group',
                     thumbnailUrl: leaveApiUrl,
-                    sourceUrl: 'https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07',
+                    sourceUrl: 'https://whatsapp.com/channel/0029VaGyP933bbVC7G0x0i2T',
                     mediaType: 1,
                     renderLargerThumbnail: true,
                   },
