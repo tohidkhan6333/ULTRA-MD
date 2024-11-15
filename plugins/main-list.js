@@ -110,7 +110,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 ◈ •listprem
 ◈ •listmenu
 ◈ •mrcs
-◈ © GlobalTechInfo
+◈ © *TOHID KHAN*
 ╰─────────❍` // Your bot menu message here
       break
       case 'aimenu':

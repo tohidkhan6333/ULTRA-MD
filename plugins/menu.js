@@ -21,8 +21,8 @@ let handler = async (m, { conn, usedPrefix }) => {
     let greeting = ucapan();
 
     let str = `
-      『 *ULTRA-MD* 』  
-      © 2024 *GlobalTechInfo*`;
+      『 *TOHID-KHAN* 』  
+      © 2025 *Tohid Khan*`;
 
     let msg = generateWAMessageFromContent(m.chat, {
         viewOnceMessage: {
@@ -52,7 +52,7 @@ let handler = async (m, { conn, usedPrefix }) => {
                                     "title": "TAP TO OPEN",
                                     "sections": [{
                                         "title": "HERE IS BUTTONS MENU",
-                                        "highlight_label": "ULTRA",
+                                        "highlight_label": "TOHID",
                                         "rows": [
                                             { "header": "", "title": "🎁 Bot Menu", "description": "The Bot's secret control panel.", "id": `${usedPrefix}botmenu` },
                                             { "header": "", "title": "🖲️ Owner Menu", "description": "Yep, that's for you, Boss!", "id": `${usedPrefix}ownermenu` },
@@ -86,14 +86,14 @@ let handler = async (m, { conn, usedPrefix }) => {
                                 "name": "cta_url",
                                 "buttonParamsJson": JSON.stringify({
                                     "display_text": "OWNER 🌟",
-                                    "url": "https://wa.me/message/HA35ZL76JSHJB1"
+                                    "url": "https://wa.me/message/O6KWTGOGTVTYO1"
                                 })
                             },
                             {
                                 "name": "cta_url",
                                 "buttonParamsJson": JSON.stringify({
                                     "display_text": "SCRIPT 💕",
-                                    "url": "https://github.com/GlobalTechInfo/ULTRA-MD"
+                                    "url": "https://github.com/Tohidkhan6332"
                                 })
                             }
                         ],
@@ -110,7 +110,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 
 handler.help = ['main'];
 handler.tags = ['group'];
-handler.command = ['menu2', 'help2', 'h', 'commands2'];
+handler.command = ['menu', 'help', 'h', 'commands'];
 
 export default handler;
 

@@ -1,19 +1,19 @@
 let handler = async (m, { conn, usedPrefix, isOwner }) => {
   let vcard = `BEGIN:VCARD
 VERSION:3.0
-N:;Qasim;;;
-FN:Qasim Ali
-ORG:GlobalTechInfo
+N:;Tohid;;;
+FN:Mr Tohid 
+ORG:TohidKhan
 TITLE:Owner
-item1.TEL;waid=923444844060:923444844060
+item1.TEL;waid=917849917350:918930358452
 item1.X-ABLabel:Owner
 X-WA-BIZ-DESCRIPTION:Developer of the Bot
-X-WA-BIZ-NAME:Qasim Ali
+X-WA-BIZ-NAME:Mr Tohid 
 END:VCARD`;
 
   await conn.sendMessage(m.chat, {
     contacts: {
-      displayName: 'Qasim Ali',
+      displayName: 'Tohid Khan',
       contacts: [{ vcard }]
     }
   }, { quoted: m });
