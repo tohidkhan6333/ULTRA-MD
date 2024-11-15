@@ -3,7 +3,7 @@ import uploadImage from '../lib/uploadImage.js'
 
 let handler = async (m, { conn, text, usedPrefix, command }) => {
   if (!text)
-    throw `*This command generates images from text prompts*\n\n*𝙴xample usage*\n*◉ ${usedPrefix + command} Beautiful anime girl*\n*◉ ${usedPrefix + command} Elon Musk in pink outfit*`
+    throw `*This command generates images from text prompts*\n\n*xample usage*\n* ${usedPrefix + command} Beautiful anime girl*\n* ${usedPrefix + command} Elon Musk in pink outfit*`
 
   try {
     m.reply('*Please wait, generating images...*')
@@ -14,7 +14,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     if (response.ok) {
       const imageBuffer = await response.buffer()
       let imgurl = await uploadImage(imageBuffer)
-      await conn.sendButton(m.chat,'Here is your Result', author, imgurl, [['Script', `.sc`]], null, [['Follow Me', `https://github.com/GlobalTechInfo`]], m)
+      await conn.sendButton(m.chat,'Here is your Result', author, imgurl, [['Script', `.sc`]], null, [['Follow Me', `https://github.com/Tohidkhan6332`]], m)
     } else {
       throw '*Image generation failed*'
     }
