@@ -61,6 +61,7 @@ let str = `
 ◈┏━⟪ *MENU* ⟫━━⦿
 ◈┃• groupmenu
 ◈┃• animemenu
+◈┃• autoreact
 ◈┃• infoanime
 ◈┃• makermenu
 ◈┃• ownermenu
@@ -68,6 +69,7 @@ let str = `
 ◈┃• toolsmenu
 ◈┃• gamesmenu
 ◈┃• logomenu
+◈┃• listplugin
 ◈┃• economy
 ◈┃• reactions
 ◈┃• funmenu
@@ -89,7 +91,7 @@ let str = `
 ◈┃• fancy2
 ◈┗━♪♪━★━☆━⦿
 
-© *TOHID KHAN*
+© *TOHID-KHAN*
 
 > 💡 *_Remember, when in doubt, use ${usedPrefix}list or ${usedPrefix}help It's like my magic spell book!_* 💡
 `
